@@ -1,0 +1,169 @@
+/* Main page - Question 1 */
+header > h1 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: #ff6239;
+}
+html{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    display: inline-block;
+}
+nav li{
+    display: inline;
+}
+ul {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+header {
+    background-color: #2f3c4f;
+    margin-bottom: 10px;
+}
+.list{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.list:hover{
+    color: #ffca27;
+    border-bottom: 3px solid #ffca27;
+    padding-bottom: 14px;
+}
+body {
+    background-color: #A1A09E;
+    margin: 0px;
+    padding: 0px;
+}
+article > h1 {
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: #3a4356;
+    padding-bottom: 10px;
+}
+article{
+    margin-bottom: 100px;
+    min-height: 120vh;
+}
+article > p {
+    padding-bottom: 10px;
+    margin: 0 20%;
+    color: #1e3434;
+    text-align: justify;
+}
+footer {
+    background-color: #2f3c4f;
+    padding: 20px 0;
+    width: 100%;
+    bottom:0px;
+    clear: both;
+    position: absolute;
+}
+footer > p {
+    margin:0 auto;
+    text-align: center;
+    color: white;
+}
+#footerLink{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#footerLink:hover{
+    color: gold;
+}
+#top {
+    padding: 0px;
+}
+/*Styling the table - Question 2 */
+td {
+    padding: 2px 5px 2px 100px;
+    border: 2px solid #1e3434;
+    margin: 0px;
+    width: 0px;
+    text-align: end;
+    color: #3a4356;
+}
+th {
+    padding: 2px 70px 2px 5px;
+    text-align: start;
+    font-weight: bold;
+    border: 2px solid #1e3434;
+    color: #131b2c;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+/* Styling for the Gallery - Question 3 */
+div {
+    display: inline;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+img{
+    border: 10px solid #666666;
+    border-radius: 5px;
+    background-color:darkgrey;
+    padding: 10px;
+    margin: 20px;
+}
+/* Styling for the Formulary - Question 4 */
+form{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+fieldset {
+    display: block;
+    width: 300px;
+}
+label {
+    display:block;
+    margin: 5px 10px;
+}
+input{
+    float: right;
+    width: 150px;
+}
+select {
+    float: right;
+    width: 150px;
+}
+#thisInput {
+    float: left;
+    margin-top: 5px;
+    width:fit-content;
+}
+/* Styling the last page with the text - Question 5 */
+
+#firstSpan{
+    position: relative;
+    text-decoration:underline;
+}
+#secondSpan{
+    position:absolute;
+    color: black;
+    top: -1000px;
+    width: 200px;
+}
+#firstSpan:hover #secondSpan{
+    color: white;
+    background-color: darkslategrey;
+    padding: 2px 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    top: 0px;
+    position: absolute;
+}
+#question5 {
+    padding-bottom: 300px;
+}

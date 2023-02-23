@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Traing Exam Web Cliend Development - Formulary</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>The Formulary</h1>
+        <nav>
+            <ul>
+                <li><a class="list" href="index.html">Main</a></li>
+                <li><a class="list" href="question2.html">Table</a></li>
+                <li><a class="list" href="question3.html">Image Gallery</a></li>
+                <li><a class="list" href="question4.html">Formulary</a></li>
+                <li><a class="list" href="question5.html">Text and Definition</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <form>
+            <fieldset>
+                <legend>Information</legend>
+                <label>First Name:<input type="text" id="fName" name="fName" /></label>
+                <label>Last Name:<input type="text" id="lName" name="lName" maxlength="20" /></label>
+                <label>Date birth:<input type="date" id="date" name="date" /></label>
+                <label>Email:<input type="email" id="email" name="email" /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Skills</legend>
+                <label>
+                    Programming
+                    <select name="programming">
+                        <option value="CSharp">CSharp</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Python">Python</option>
+                        <option value="HTML and CSS">HTML and CSS</option>
+                        <option value="SQL">SQL</option>
+                    </select>
+                </label>
+
+                <label>
+                    Language:
+                    <select name="programming">
+                        <option value="English">English</option>
+                        <option value="French">French</option>
+                        <option value="Portuguese">Portuguese</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Romanian">Romanian</option>
+                    </select>
+                </label>
+            </fieldset>
+            <input id="thisInput" type="submit" id="sendApplication" name="sendApplication" value="Send Application" />
+        </form>
+    </article>
+    <footer>
+        <p><a id="footerLink" href="#top">Back to top</a></p>
+    </footer>
+</body>
+</html>
